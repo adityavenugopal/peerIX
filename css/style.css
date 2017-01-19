@@ -1,0 +1,56 @@
+/*---------------------------------------*\
+                &FONT-FACE
+\*---------------------------------------*/
+@font-face {
+    font-family: "OpenSans-CondBold";
+    src: url('../fonts/OpenSans-CondBold/OpenSans-CondensedBold.eot?') format('eot'),
+        url('../fonts/OpenSans-CondBold/OpenSans-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-CondBold/OpenSans-CondensedBold.woff') format('woff'),
+        url('../fonts/OpenSans-CondBold/OpenSans-CondensedBold.ttf') format('truetype'),
+        url('../fonts/OpenSans-CondBold/OpenSans-CondensedBold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans-CondLight";
+    src: url('../fonts/OpenSans-CondLight/OpenSans-CondensedLight.eot?') format('eot'),
+        url('../fonts/OpenSans-CondLight/OpenSans-CondensedLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans-CondLight/OpenSans-CondensedLight.woff') format('woff'),
+        url('../fonts/OpenSans-CondLight/OpenSans-CondensedLight.woff2') format('woff2'),
+        url('../fonts/OpenSans-CondLight/OpenSans-CondensedLight.ttf') format('truetype'),
+        url('../fonts/OpenSans-CondLight/OpenSans-CondensedLight.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*---------------------------------------*\
+                &HOME
+\*---------------------------------------*/
+
+html{
+    height: 100%;
+}
+
+body{
+    height:100%;
+    font-family: 'Open Sans',sans-serif;
+    min-width: 320px;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+.header {
+    background-color: #4c6a92;
+    border: none;
+    padding: 15px;
+    text-align: center;
+}
+
+.header-logo {
+  display: inline-block;
+}
+
+.header-logo img {
+    width: 150px;
+}
