@@ -57,6 +57,8 @@ body{
 
 .sub-header {
     padding: 10px 0;
+    position: relative;
+    z-index: 99;
     -webkit-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.3);
     box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.3);
@@ -74,6 +76,7 @@ body{
     border: 1px solid #aaa;
     border-radius: 0px;
     color: #555;
+    min-width: 100px;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -86,4 +89,72 @@ body{
 
 .graduate-year-select {
     border-right: 1px solid #ccc;
+}
+
+.nav-btn {
+    width: 25%;
+    padding: 2px;
+    display: table-cell;
+    border: none;
+    border-left: 1px solid #ddd;
+    vertical-align: middle;
+}
+
+.nav-btn a {
+    text-align: center;
+    display: block;
+}
+
+.nav-menu-wrap {
+    display: table;
+}
+
+img.nav-menu-icon {
+    height: 40px;
+}
+
+.nav-menu-text {
+    display: block;
+    margin-top: 10px;
+    color: #000;
+}
+
+.account-menu-text {
+    margin-top: 5px;
+}
+
+.section-title-wrap {
+    background: #F5F5F5;
+    padding: 15px 10px 15px 20px;
+    height: 60px;
+}
+
+.section-box-left,
+.section-box-right {
+    padding: 0;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.section-box-right {
+    border-left: none;
+}
+
+.section-content {
+    padding: 10px;
+    height: 400px;
+}
+
+/*---------------------------------------*\
+                &MEDIA QUERY
+\*---------------------------------------*/
+
+@media screen and (min-width: 768px) {
+    .sub-header-left {
+        padding-right: 0;
+    }
+
+    .sub-header-right {
+        padding-left: 0;
+    }
 }
