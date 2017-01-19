@@ -54,3 +54,36 @@ body{
 .header-logo img {
     width: 150px;
 }
+
+.sub-header {
+    padding: 10px 0;
+    -webkit-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 3px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.section-title {
+    width: 100%;
+    font-size: 19px;
+    font-family: 'OpenSans-CondBold';
+    font-weight: 400;
+}
+
+.select-box {
+    background: #fff url('../images/select-arrow.png') no-repeat calc(100% - 15px) center;
+    border: 1px solid #aaa;
+    border-radius: 0px;
+    color: #555;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.resident-count {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.graduate-year-select {
+    border-right: 1px solid #ccc;
+}
